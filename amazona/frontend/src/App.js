@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 
@@ -16,11 +16,11 @@ function App() {
             <a href="/signin">Sign In</a>
           </div>
         </header>
-        
+
         <main>
           <Routes>
-            <Route path="/product/:id" element={<ProductScreen/>}></Route>
-            <Route exact path="/" element={<HomeScreen/>}></Route>
+            <Route path="/product/:id" element={<ProductScreen />}></Route>
+            <Route exact path="/" element={<HomeScreen />}></Route>
           </Routes>
         </main>
 
