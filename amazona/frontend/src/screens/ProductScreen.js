@@ -4,7 +4,7 @@ import Rating from '../components/Rating'
 import data from '../data'
 
 export default function ProductScreen(props) {
-  const {id} = useParams()
+  const { id } = useParams()
   const product = data.products.find(x => x._id === id)
   if (!product) {
     return <div> Product {id} Not Found </div>
@@ -47,7 +47,7 @@ export default function ProductScreen(props) {
                   <div>Status</div>
                   <div className="price">
                     {product.countInStock > 0 ? (<span className="success">In Stock</span>) :
-                      (<span className="error">Unavailable</span>)
+                      (<span className="danger">Unavailable</span>)
                     }
                   </div>
                 </div>
