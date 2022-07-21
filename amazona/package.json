@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/AmirGabayy/amazona-app#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.4.6"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
