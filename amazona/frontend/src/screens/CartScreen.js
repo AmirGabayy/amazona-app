@@ -24,7 +24,7 @@ export default function CartScreen() {
   };
 
   const checkoutHandler = () => {
-    navigate("/signin?redirect=shipping");
+    navigate("/signin/shipping");
     // props.history.push("/signin?redirect=shipping");
   };
   return (
