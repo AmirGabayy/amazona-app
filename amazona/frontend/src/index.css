@@ -254,7 +254,6 @@ img.large {
 .form label {
   /* 1rem vertically, 0rem horizontally */
   margin: 1rem 0;
-  display: block;
 }
 
 /* Dropdown */
