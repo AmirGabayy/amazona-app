@@ -1,6 +1,6 @@
 # Amazona - eCommerce Website Project
 
-![Amazona Homepage Display](/amazona/resources/Amazona Homepage.png?raw=true "Amazona Homepage")
+![Amazona Homepage Display](/amazona/resources/Amazona_Homepage.png?raw=true "Amazona Homepage")
 
 This is a project to learn Node.js, React, MongoDB and Redux.
 Amazona is an eCommerce website done with the guidance of Basir's course, found at: https://www.youtube.com/watch?v=TRCDsB9i3bI&t=27679s.
